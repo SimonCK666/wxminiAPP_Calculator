@@ -1,0 +1,42 @@
+<!--pages/calculate/calculate.wxml-->
+
+<view class="main">
+    <view class="screen-output">
+        <text class="screen-output-text" selectable="false" space="false" decode="false">
+            {{screenOutput}}
+        </text>
+          
+    </view>
+      
+    <view class="btnGroup">
+        <veiw class="btn gray" bindtap="clickButton" id="{{id1}}">AC</veiw>
+        <veiw class="btn gray" bindtap="clickButton" id="{{id2}}">+/-</veiw>
+        <veiw class="btn gray" bindtap="clickButton" id="{{id3}}">%</veiw>
+        <veiw class="btn orange" bindtap="clickButton" id="{{id4}}">/</veiw>
+    </view>
+    <view class="btnGroup">
+        <veiw class="btn black" bindtap="clickButton" id="{{id5}}">7</veiw>
+        <veiw class="btn black" bindtap="clickButton" id="{{id6}}">8</veiw>
+        <veiw class="btn black" bindtap="clickButton" id="{{id7}}">9</veiw>
+        <veiw class="btn orange" bindtap="clickButton" id="{{id8}}">x</veiw>
+    </view>
+    <view class="btnGroup">
+        <veiw class="btn black" bindtap="clickButton" id="{{id9}}">4</veiw>
+        <veiw class="btn black" bindtap="clickButton" id="{{id10}}">5</veiw>
+        <veiw class="btn black" bindtap="clickButton" id="{{id11}}">6</veiw>
+        <veiw class="btn orange" bindtap="clickButton" id="{{id12}}">-</veiw>
+    </view>
+    <view class="btnGroup">
+        <veiw class="btn black" bindtap="clickButton" id="{{id13}}">1</veiw>
+        <veiw class="btn black" bindtap="clickButton" id="{{id14}}">2</veiw>
+        <veiw class="btn black" bindtap="clickButton" id="{{id15}}">3</veiw>
+        <veiw class="btn orange" bindtap="clickButton" id="{{id16}}">+</veiw>
+    </view>
+    <view class="btnGroup">
+        <veiw class="btn black zero" bindtap="clickButton" id="{{id17}}">0</veiw>
+        <veiw class="btn black" bindtap="clickButton" id="{{id18}}">.</veiw>
+        <veiw class="btn orange" bindtap="clickButton" id="{{id19}}">=</veiw>
+    </view>
+      
+</view>
+  

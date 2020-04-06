@@ -1,0 +1,35 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/calculate/calculate",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "Serendipity",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "list": 
+    [
+      {
+      "pagePath": "pages/index/index",
+      "text": "Home",
+      "iconPath": "icon/house.png",
+      "selectedIconPath": "icon/house.png"
+      },
+      {
+        "pagePath": "pages/calculate/calculate",
+        "text": "Calculator",
+        "iconPath": "icon/piggy-bank.png",
+        "selectedIconPath": "icon/piggy-bank.png"
+      }
+    ],
+    "color": "#ffffff",
+    "selectedColor": "#000000",
+    "backgroundColor": "#fff"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
